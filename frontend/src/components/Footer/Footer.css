@@ -1,0 +1,72 @@
+.footer {
+    background-color: rgb(26, 26,26);
+    padding: 3vmax;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+.footer > div > h5 {
+    color: white;
+    border-bottom: 1px solid white;
+    width: inherit;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    overflow-wrap: normal;
+}
+
+.footer > div > p {
+    color: white;
+    width: 60%;
+}
+
+.footer > div > h6 {
+    color: white;
+    padding: 10px 0;
+}
+
+.footer > div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div > a {
+    font-size: 3vmax;
+    color: white;
+    transition: all 0.3s;
+}
+.footer > div > a:nth-child(1):hover {
+    color: HSL(250, 100%, 75%);
+}
+.footer > div > a:nth-child(2):hover {
+    color: HSL(250, 100%, 75%);
+}
+.footer > div > a:nth-child(3):hover {
+    color: HSL(250, 100%, 75%);
+}
+.footerContactBtn {
+    background-color: rgb(26, 26,26);
+    color: black;
+    padding: 5px;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 2vmax;
+    border: 3px solid HSL(250, 100%, 75%);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.footerContactBtn > p {
+    color: white;
+}
+.footerContactBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px white;
+    background-color: white;
+}
+.footerContactBtn:hover p{
+    color: black;
+}

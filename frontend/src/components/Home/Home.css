@@ -1,0 +1,331 @@
+.homeCanvas{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.homeContainer {
+    background-color: white;
+    padding-top: 4vmax;
+    border-radius: 0 0 200px 200px;
+    border-bottom: 200px solid white;
+    position: relative;
+    z-index: 1;
+}
+
+.homeContainer >h3 {
+    text-align: center;
+    color: rgba(22, 20, 20, 0.904);
+    padding: 4vmax
+}
+
+.aboutContainer {
+    display: flex;
+    margin: inherit;
+    justify-content: space-around;
+}
+
+.aboutText {
+    width: inherit;
+    transition: all 0.5s;
+    padding: 1vmax;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: HSL(250, 100%, 75%);
+
+}
+
+.homeSkills {
+    transform: translateY(-200px);
+    background-color: HSL(219, 48%, 8%);
+    height: 1900px;
+    position: relative;
+    margin-bottom: -200px;
+    padding: 200px;
+    box-sizing: border-box;
+    perspective: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+.homeSkills > h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 4vmax;
+    font-size: 4vmax;
+    padding-top: 4vmax;
+}
+
+.homeCubeSkills {
+    width: 200px;
+    height: 200px;
+    animation: cubeRotation 15s linear infinite alternate;
+    transform-style: preserve-3d;
+    margin: auto;
+}
+
+.homeCubeSkillsFaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    opacity: 0.7;
+}
+
+.homeCubeSkillsFaces > img {
+    width: inherit;
+    height: inherit;
+}
+
+.homeCubeSkillsFace1{
+    transform: translate3d(0, 0, 150px);
+}
+
+.homeCubeSkillsFace2{
+    transform: rotateY(180deg) translate3d(0, 0, 150px);
+}
+
+.homeCubeSkillsFace3{
+    transform: rotateY(-90deg) translate3d(0, 0, 150px);
+}
+
+.homeCubeSkillsFace4{
+    transform: rotateY(90deg) translate3d(0, 0, 150px);
+}
+
+.homeCubeSkillsFace5{
+    transform: rotateX(90deg) translate3d(0, 0, 150px);
+}
+
+.homeCubeSkillsFace6{
+    transform: rotateX(90deg) translate3d(0, 0, 150px);
+}
+
+.cubeShadow{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.171);
+    border-radius: 50%;
+    animation: cubeShadow 1s ease-in-out infinite alternate;
+    filter: blue(3px);
+    margin-bottom: 100px;
+}
+
+/*.homeSkillsBox {
+    background-color: HSL(250, 100%, 75%);
+    padding: 0 2vmax;
+    display: flex;
+    right:0px;
+}
+
+.homeSkillsBox > svg {
+    font-size: 5vmax;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    margin: 10px;
+}*/
+
+.skillsContainer {
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.skillsContainer > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    flex-direction: column;
+    margin: 5px;
+    background-color: HSL(250, 100%, 75%);
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .box > p {
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    padding-bottom: 30px;        
+  }
+
+
+
+
+.progIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+}
+
+.rowone {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.rowone > div {
+    padding: 5;
+}
+
+.rowone > div > h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.python > h6 {
+    width: 50px;
+}
+
+.rowtwo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.rowtwo > div {
+    padding: 5px;
+}
+
+.rowtwo > div > h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.JS > h6 {
+    width: 50px;
+}
+
+.arm > h6 {
+    width: 50px;
+}
+
+.rowthree {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rowthree > div {
+    padding: 5px;
+}
+
+.rowthree > div > h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.matlab > h6 {
+    width: 50px;
+}
+
+.hardIcons {
+    padding-top: 43px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+}
+
+.boxtworowone {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.boxtworowone > div {
+    padding: 5px;
+}
+
+.boxtworowone > div > h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+}
+
+.boxtworowtwo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.boxtworowtwo > div {
+    padding: 5px;
+}
+
+.boxtworowtwo > div > h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+}
+
+
+.homeProjects {
+    background-color: white;
+    padding-top: 4vmax;
+    transform: translateY(-200px);
+    border-radius: 20% 20% 0 0;
+    position: relative;
+    margin-bottom: -200px;
+    box-sizing: border-box;
+    min-height: 1000px;
+}
+
+.homeProjects > h3 {
+    text-align: center;
+    color: rgba(22, 20, 20, 0.904);
+    padding-top: 4vmax;
+    padding-bottom: 10px;
+}
+
+.homeProjects > h6 {
+    text-align: center;
+    color: rgba(22, 20, 20, 0.904);
+    padding-top: 5px;
+    overflow-wrap: inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.homeProjectsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vmax;
+    width: 80%;
+    margin: auto;}
+
+@keyframes cubeRotation {
+    to {
+        transform: rotateY(360deg) rotateX(480deg) rotateZ(720deg);
+    }
+}
+
+@keyframes cubeShadow {
+    to {
+        transform: scale(1.2) translateY(-10px);
+    }
+}
