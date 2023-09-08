@@ -67,3 +67,39 @@ export const getUser = async (req, res) => {
     });
   }
 };
+
+export const myProfile = async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id);
+    res.status(200).json({
+      success: true,
+      user,
+    });
+  } catch (error) {
+    return res.status(400).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+export const contact = async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+
+    const userMessage =
+      "Hey, I am ${name}. My email is ${email}. My message is ${message}.";
+
+    await sendMail(userMessage);
+
+    return res.status(200).json({
+      success: true,
+      message: "Message sent successfully",
+    });
+  } catch (error) {
+    return res.status(400).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
