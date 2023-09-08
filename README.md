@@ -1,3 +1,5 @@
+OVERLAY NAVBAR MODULE IN FRONTEND IS CUSTOMIZED AFTER THE NPM INSTALL, NEED TO MOVE IN MANUALLY.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
