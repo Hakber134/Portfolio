@@ -1,5 +1,6 @@
 import express from "express";
 import {
+  addProject,
   contact,
   getUser,
   login,
@@ -20,5 +21,7 @@ userRouter.route("/user").get(getUser);
 userRouter.route("/me").get(isAuthenticated, myProfile);
 
 userRouter.route("/admin/update").put(isAuthenticated, updateUser);
+
+userRouter.route("/admin/timeline/add").post(isAuthenticated, addProject);
 
 userRouter.route("/contact").post(contact);
