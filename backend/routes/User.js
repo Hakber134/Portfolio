@@ -2,6 +2,7 @@ import express from "express";
 import {
   addProject,
   contact,
+  deleteProject,
   getUser,
   login,
   logout,
@@ -22,6 +23,8 @@ userRouter.route("/me").get(isAuthenticated, myProfile);
 
 userRouter.route("/admin/update").put(isAuthenticated, updateUser);
 
-userRouter.route("/admin/timeline/add").post(isAuthenticated, addProject);
+userRouter.route("/admin/project/add").post(isAuthenticated, addProject);
+
+userRouter.route("/admin/project/:id").delete(isAuthenticated, deleteProject);
 
 userRouter.route("/contact").post(contact);
