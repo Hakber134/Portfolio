@@ -1,10 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./AdminPanel.css"
 import {Button, Typography} from "@mui/material"
 import {AiOutlineProject} from "react-icons/ai"
 import {Link} from "react-router-dom"
+import {useDispatch, useSelector} from "react-redux"
+import {logout, updateUser} from "../../actions/user"
+import { useAlert } from 'react-alert'
+
+
 
 const AdminPanel = () => {
+
+    const dispatch = useDispatch();
+    const alert = useAlert();
+
+    const {message: loginMessage} = useSelector(state => state.login);
+    const {message, error, loading} = useSelector(state => state.update);
+
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -14,9 +26,12 @@ const AdminPanel = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
+        dispatch(updateUser(name, email, password, skills))
     };
 
-    const logoutHandler = () => {};
+    const logoutHandler = () => {
+        dispatch(logout())
+    };
 
     const handleImages = (e, val) => {
         const file = e.target.files[0];
@@ -42,6 +57,20 @@ const AdminPanel = () => {
             }
         }
     }
+
+    useEffect(() => {
+        if (error) {
+            alert.error(error)
+            dispatch({ type: "CLEAR_ERRORS"})
+        } if (message) {
+            alert.success(message)
+            dispatch({type: "CLEAR_MESSAGE"})
+        } if (loginMessage) {
+            alert.success(loginMessage)
+            dispatch({type: "CLEAR_MESSAGE"})
+        }
+    }, [alert, error, message, dispatch, loginMessage])
+
   return  (
     <div className="adminPanel">
       <div className="adminPanelContainer">
@@ -150,7 +179,7 @@ const AdminPanel = () => {
           </Link>
           
 
-          <Button type="submit" variant="contained" >
+          <Button type="submit" variant="contained" disabled={loading}>
             Update
           </Button>
         </form>

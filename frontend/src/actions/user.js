@@ -90,3 +90,37 @@ export const loadUser = () => async (dispatch) => {
     });
   }
 };
+
+export const updateUser =
+  (name, email, password, skills) => async (dispatch) => {
+    try {
+      dispatch({
+        type: "UPDATE_USER_REQUEST",
+      });
+
+      const { data } = await axios.put(
+        "/api/v1/admin/update",
+        {
+          name,
+          email,
+          password,
+          skills,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      dispatch({
+        type: "UPDATE_USER_SUCCESS",
+        payload: data.message,
+      });
+    } catch (error) {
+      dispatch({
+        type: "UPDATE_USER_FAILURE",
+        payload: error.response.data.message,
+      });
+    }
+  };
