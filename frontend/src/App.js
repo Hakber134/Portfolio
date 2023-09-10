@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser, loadUser } from "./actions/user";
 import AdminPanel from "./components/Admin/AdminPanel";
+import Project from "./components/Admin/Projects";
 
 function App() {
   const dispatch = useDispatch();
@@ -33,6 +34,10 @@ function App() {
             <Route
               path="/account"
               element={isAuthenticated ? <AdminPanel /> : <Login />}
+            />
+            <Route
+              path="/admin/project"
+              element={isAuthenticated ? <Project /> : <Login />}
             />
           </Routes>
 

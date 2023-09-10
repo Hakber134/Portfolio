@@ -99,5 +99,28 @@ export const updateReducer = createReducer(
     CLEAR_MESSAGE: (state) => {
       state.message = null;
     },
+
+    ADD_PROJECT_REQUEST: (state) => {
+      state.loading = true;
+    },
+    ADD_PROJECT_SUCCESS: (state, action) => {
+      state.loading = false;
+      state.message = action.payload;
+    },
+    ADD_PROJECT_FAILURE: (state, action) => {
+      state.loading = false;
+      state.error = action.payload;
+    },
+    DELETE_PROJECT_REQUEST: (state) => {
+      state.loading = true;
+    },
+    DELETE_PROJECT_SUCCESS: (state, action) => {
+      state.loading = false;
+      state.message = action.payload;
+    },
+    DELETE_PROJECT_FAILURE: (state, action) => {
+      state.loading = false;
+      state.error = action.payload;
+    },
   }
 );
