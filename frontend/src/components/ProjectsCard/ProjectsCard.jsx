@@ -10,6 +10,7 @@ const ProjectsCard = ({
    title = "Connect4 Board Game",
    image = "https://i.gyazo.com/979962f9b89163167a85402f7ad7457a.png",
    isAdmin = false,
+   id,
 }) => {
     const dispatch = useDispatch()
 
