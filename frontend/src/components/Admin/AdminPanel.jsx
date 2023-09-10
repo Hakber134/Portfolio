@@ -42,17 +42,17 @@ const AdminPanel = () => {
         Reader.onload = () => {
             if (Reader.readyState === 2) {
                 if (val === 1) {
-                    setSkills(...skills, {image1: Reader.result})
+                    setSkills({...skills, image1: Reader.result})
                 } if (val === 2) {
-                    setSkills(...skills, {image2: Reader.result})
+                    setSkills({...skills, image2: Reader.result})
                 } if (val === 3) {
-                    setSkills(...skills, {image3: Reader.result})
+                    setSkills({...skills, image3: Reader.result})
                 } if (val === 4) {
-                    setSkills(...skills, {image4: Reader.result})
+                    setSkills({...skills, image4: Reader.result})
                 } if (val === 5) {
-                    setSkills(...skills, {image5: Reader.result})
+                    setSkills({...skills, image5: Reader.result})
                 } if (val === 6) {
-                    setSkills(...skills, {image6: Reader.result})
+                    setSkills({...skills, image6: Reader.result})
                 }
             }
         }
