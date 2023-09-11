@@ -112,7 +112,7 @@ const Project = () => {
                 title={item.title}
                 image={item.image.url}
                 isAdmin={true}
-                id={item.id}
+                id={item._id}
               />
             ))}
         </div>
