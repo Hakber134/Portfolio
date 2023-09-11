@@ -125,12 +125,12 @@ const Home = () => {
                   <Icon icon="logos:python" height={50} />
                   <Typography variant="h6">Python</Typography>
                 </div>
+                </div>
+                <div className="rowtwo">
                 <div className="html">
                   <Icon icon="logos:html-5" width={50} height={50} />
                   <Typography variant="h6">HTML</Typography>
                 </div>
-              </div>
-              <div className="rowtwo">
                 <div className="css">
                   <Icon icon="logos:css-3" width={50} height={50} />
                   <Typography variant="h6">CSS</Typography>
@@ -139,6 +139,8 @@ const Home = () => {
                   <Icon icon="skill-icons:javascript" width={50} height={50} />
                   <Typography variant="h6">JavaScript</Typography>
                 </div>
+                </div>
+                <div className="rowthree">
                 <div className="React">
                   <Icon icon="logos:react" width={50} height={50} />
                   <Typography variant="h6">React</Typography>
@@ -147,8 +149,6 @@ const Home = () => {
                   <Icon icon="logos:arm" width={50} height={50} />
                   <Typography variant="h6">ARM Assembly</Typography>
                 </div>
-              </div>
-              <div className="rowthree">
                 <div className="matlab">
                   <Icon icon="devicon:matlab" width={50} height={50} />
                   <Typography variant="h6">MATLAB</Typography>

@@ -2,6 +2,10 @@
   width: 100vw;
   height: 100vh;
   max-width: 100%;
+.homeCanvas {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
 }
 
 .homeContainer {
@@ -34,6 +38,18 @@
   display: flex;
   flex-direction: column;
   background-color: HSL(250, 100%, 75%);
+  width: inherit;
+  transition: all 0.5s;
+  padding: 1vmax;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: HSL(250, 100%, 75%);
+}
+
+.aboutText > h5 {
+  font-family: cursive, Courier, monospace;
 }
 
 .homeSkills {
@@ -58,6 +74,12 @@
   margin-bottom: 4vmax;
   font-size: 4vmax;
   padding-top: 4vmax;
+  text-align: center;
+  color: white;
+  margin-bottom: 4vmax;
+  font-size: 4vmax;
+  padding-top: 4vmax;
+  font-size: 48px;
 }
 
 .homeCubeSkills {
@@ -149,6 +171,18 @@
   overflow-wrap: normal;
 }
 
+.skillsContainer > div.box > p {
+  font-family: cursive, Courier, monospace;
+}
+
+.progIcons > div > div > h6 {
+  font-family: cursive, Courier, monospace;
+}
+
+.hardIcons > div div > h6 {
+  font-family: cursive, Courier, monospace;
+}
+
 .rowone {
   display: flex;
   width: 100%;
@@ -158,6 +192,7 @@
 
 .rowone > div {
   padding: 5;
+  margin: 0px 20px 0px 20px;
 }
 
 .rowone > div > h6 {
@@ -179,6 +214,7 @@
 
 .rowtwo > div {
   padding: 5px;
+  margin: 0px 20px 0px 20px;
 }
 
 .rowtwo > div > h6 {
@@ -205,6 +241,7 @@
 
 .rowthree > div {
   padding: 5px;
+  margin: 0px 20px 0px 20px;
 }
 
 .rowthree > div > h6 {
@@ -218,7 +255,7 @@
 }
 
 .hardIcons {
-  padding-top: 43px;
+  padding-top: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -286,6 +323,13 @@
   overflow-wrap: inherit;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: center;
+  color: rgba(22, 20, 20, 0.904);
+  padding-top: 5px;
+  overflow-wrap: inherit;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: cursive, Courier, monospace;
 }
 
 .homeProjectsWrapper {
