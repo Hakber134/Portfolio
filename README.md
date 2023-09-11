@@ -1,4 +1,4 @@
-OVERLAY NAVBAR MODULE IN FRONTEND IS CUSTOMIZED AFTER THE NPM INSTALL, NEED TO MOVE IN MANUALLY AT END. CONFIG.ENV IS MISSING TO PROTECT KEY SECURITY. I plan to continually update this website with time, and also incorporate further features, starting with mobile responsiveness.
+OVERLAY NAVBAR MODULE IN FRONTEND IS CUSTOMIZED AFTER THE NPM INSTALL, NEED TO MOVE IN MANUALLY AT END. CONFIG.ENV IS MISSING TO PROTECT KEY SECURITY. I plan to continually update this website with time, and also incorporate further features.
 
 # Getting Started with Create React App
 
