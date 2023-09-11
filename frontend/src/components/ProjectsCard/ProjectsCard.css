@@ -1,30 +1,35 @@
 .ProjectsCard {
-    width: 300px;
-    transition: all 0.5s;
-    padding: 1vmax;
-    margin: 15px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: HSL(250, 100%, 75%);
+  width: 300px;
+  transition: all 0.5s;
+  padding: 1vmax;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: HSL(250, 100%, 75%);
 }
 .ProjectsCard > a {
-    text-decoration: none;
-    color: rgba(0,0,0,0.712);
-    width: inherit;
-    text-align:center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.712);
+  width: inherit;
+  text-align: center;
 }
 .ProjectsCard img {
-    width: inherit;
-    height: 300px;
+  width: inherit;
+  height: 300px;
 }
+
+.ProjectsCard > a > p {
+  font-family: cursive, Courier, monospace;
+}
+
 .ProjectsCard:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px HSL(219, 48%, 8%);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px HSL(219, 48%, 8%);
 }
 
 @media screen and (max-width: 600px) {
-    .ProjectsCard{
-        width: 200px;
-    }
+  .ProjectsCard {
+    width: 200px;
+  }
 }
