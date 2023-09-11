@@ -8,7 +8,6 @@ import {
   logout,
   myProfile,
   updateUser,
-  contact,
 } from "../controller/User.js";
 import { isAuthenticated } from "../middlewares/auth.js";
 
