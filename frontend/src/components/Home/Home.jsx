@@ -4,7 +4,8 @@ import * as THREE from "three";
 import moonImage from "../../images/moon.jpg";
 import venusImage from "../../images/venus.jpg";
 import spaceImage from "../../images/space.jpg";
-import { Link, Typography } from "@mui/material";
+import {Typography } from "@mui/material";
+import {Link} from "react-router-dom"
 import { Icon } from "@iconify/react";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
 import {MouseOutlined} from "@mui/icons-material"
