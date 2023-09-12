@@ -4,9 +4,10 @@ import * as THREE from "three";
 import moonImage from "../../images/moon.jpg";
 import venusImage from "../../images/venus.jpg";
 import spaceImage from "../../images/space.jpg";
-import { Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 import { Icon } from "@iconify/react";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
+import {MouseOutlined} from "@mui/icons-material"
 
 const Home = () => {
   useEffect(() => {
@@ -85,10 +86,33 @@ const Home = () => {
     };
 
     animate();
+
+
+    return window.addEventListener("scroll", (e)=> {
+      camera.rotation.z=window.scrollY*0.001;
+      camera.rotation.y=window.scrollY*0.003;
+    })
   }, []);
   return (
     <div className="home">
       <canvas className="homeCanvas"></canvas>
+
+      <div className="homeCanvasContainer">
+      
+
+        <div className="homeCanvasBox">
+          <Typography variant="h2">WELCOME</Typography>
+          <Typography variant="h2">TO</Typography>
+          <Typography variant="h2">HASSANS'</Typography>
+          <Typography variant="h2">PORTFOLIO</Typography>
+        </div>
+
+        <Link to="/contact">GET IN TOUCH</Link>
+      </div>
+
+      <div className="homeScrollBtn">
+        <MouseOutlined />
+      </div>
 
       <div className="homeContainer">
         {/*<Typography variant="h3">TIMELINE</Typography>
