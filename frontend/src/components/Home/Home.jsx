@@ -10,6 +10,19 @@ import { Icon } from "@iconify/react";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
 import {MouseOutlined} from "@mui/icons-material";
 import aboutImage from "../../images/about.jpeg"
+import arduinoImage from "../../images/arduino.png"
+import cpp from "../../images/c++.png"
+import connect4 from "../../images/connect4.png"
+import diet from "../../images/diet.png"
+import bank from "../../images/bank.png"
+import portfolio from "../../images/portfolio.jpg"
+import python from "../../images/python.png"
+import rasp from "../../images/raspberrypi.png"
+import RCcar from "../../images/RCcar.jpeg"
+import react from "../../images/react.png"
+import rps from "../../images/rps.png"
+import stm32 from "../../images/stm32.png"
+
 
 
 const Home = () => {
@@ -233,42 +246,42 @@ const Home = () => {
         <div className="homeCubeSkills">
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACAK9Wg2RndgtSsXty4v-xedS-svaQNlPp6xzDi1CuuQHbD5HVfcJTP2s3ftfnTWgGODiUJB1B_wxnnkKaT2w23lff4SgA-wp8MdXrgAqNJOI98lY5TOqsaw_hw9N0hS-f_qmoPQ2XFnr95mM6XuI4cVTa_G5ysao3IeeY587PhQi4F-ylW4UyhVMHkwjWf5yRAi1ASTNvhIGN05TyXDT5k4jT7KJhU-z5Dj5t6f3c4jAet66la-kzmv6ijfPwQfvZCy0k-RKnCvVnFPLzzrInJhLD7xRqOWPn086CAHjFjMIjZwHp7I7MZoJUNHRTSUIu8zdkXuqzwUOC0BQyJ0CFYr/p.png"
+              src={arduinoImage}
               alt="Face1"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACCNc2M3d3kIo1uFXrkYfg9DStbUADYG8hvkCUAim934xGPe3EZG57x2pdKqft1ezHmWilURb0cwQNqjbfiAtvCWO-2I0uNHW1_l9sWooeVHynH8G4QyCDtCmVtfdcS5pHSq-MVgwZau1OPoBiFDusLS4gkISgvuZwzzhKL5VmP0QHh_fOy4_Vz66uroBZc-LqGbyifZIlZvqXkp8XHuKqGBx1NJHNfqM666C_9peTu-ULZ7NGPZVHeUjHh_CIq4Oy0yIykYjkdagG89T5XpLaHztApngI_7iIfuIGSstQPjuSYaW7SM91wrQEWlCypjglv14JRG_cvWOX3f3VhPT6LD/p.png"
+              src={rasp}
               alt="Face2"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACDASqoNUq9xII_a0WUW9x9LRCg0JKOwB3ALus6cwD4DTDkd0_dZxGIbR-moyyT-vgnC8RU8hG47xl_D9oMzIkB-hgHjxYL81xVqkXaoFgcTw-SUq9pvvEiEsMAqGmDD_5aMstpGxeNf0dKsAI7-Dcbd8x0Z-zMGteqLXPvNdPh2cJcybgycgX40sOSPlDaR4wDdUCLMOXDBAtqkFo3WUkH42BKKw333weHo8kDCguTx8VhT26Wtwu8M_9x_TN0xdWNQZ5PwirX-12GhQPBPX5JPJqauhPHOzNXnz_Dxy9-Er99NwiROPsdIEGlJuIXK-InGszEaSfP90TuRtWtvSqFb/p.png"
+              src={stm32}
               alt="Face3"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace4">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACChxpCVJvWQ6x-qXfegIB3Hw24JMnusdCKQhgietXvruewUgPM2tL-ZNOUQo_hkMc_CyS1nAoBJDQtfoFRbog3iM515Yc6c1GXFiM8odrHTCm063gbvruCps_-yUa3Ajo4miQWlwDVt8IpMQrISND6McjKG5iK4L8hT0OzfrUVPXGksWbbMP4XpUPJDaLO6My1d065bHfp_i_3ikF9xN3Dhayh-WMvxXWIuc8bX0JCUIBpd2k8QqUFE6DA30E3UnOXM0ErVHBracZxpUINv-ayT5fm0JXnCB_TRoTvb20aN6NxeyW0oDxCZf8qNzANbuI345nVnGgTtThskiz5h3pSN/p.png"
+              src={cpp}
               alt="Face4"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace5">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACBsbw0ay5aiiNEW3-JwKnxi7xzxBFW9QUbQoGrG5dZC--4CwpsLv9tHOPMNhnCd_VBe1mSHQvpEoCYf3T-Snu24iCbGaViCcfni61bKMojfQHZogfF7B9Y-myUwZu4Za0Uz2d6MryfHMcjReM5NWBdvGSjqPg31HyxEqjHXMhGe03ePEHcpIc6Fc72A88NBtDkKLnb2UiySKvmSeQXCKcj_IpweBiRzJYhBvR9zD3cQP7j2mMAOFcMsUTVxtEe4pcvDRKaswDfd1qPSRVuXs7yjjL6tc1GtZQud2R715diNUiIx5MQWrMccUy1Gm09IlsmDSfW9PKmk1DITE27BGem_/p.png"
+              src={python}
               alt="Face5"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace6">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACBSiM0sHs_k2G8dfSQNpdElb1_DYLlPhOrDx_O0bua0P0SZtqsvdb4brNg3QMSOKhJx5sNuEVxdb_n8S7rCLgSfNbAeI6p8uYuqfzz00kAW7WxDGRC2dOwwr1X6QSb2uT_bMGCK2ZKbcRe4s0Bym4TbBUSOjCkMtjE02MhKdAvsb4N9_UJPTFe6glN-oH_y4ttOwbwLYlQM3FIh-cZwFLiesBuczW25yIsKk_zSEHDYyQxIbA9L5ukw6UTeGnYvlDl4gLrvnBTfkg9GHlvc41-4uaVk1BxznllRWjeJ1vDCblGJThhEs41zj2ktEuhbBUHFlSQrBcAK5kOErt1kKkCB/p.png"
+              src={react}
               alt="Face6"
             />
           </div>
@@ -285,32 +298,32 @@ const Home = () => {
 
         <div className="homeProjectsWrapper">
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACDqMCB0q8sBGsWjk9_wcmKF5oOG00QFID4RLVWeQnX77BAa82rATohPnk_afyZsjva_alAGVtkisXyLrQGb2tb9ClyWc4-i19c05LXPhOzJoORdn81e6FXLs3Dmp_uCU98oHC4z0cQM4Cy9dPnkg3QUAsEEUfjb7KrMeK7E0NHaalRrsoReMykxuRDp91hTCG5rukFg03hFWIT_ElYO58bZ1xTyuYgA7pS_U0k7BeN6L7jxl0ZS_i2Ta1l3YrckDtmGsLRSyelUDOIr_gL6wbQa-D_AfN96Q-B2TvJv9VlW_2_WdAuFA8g2CJxZTGCSmZ_fLLDEb_YvyNlB6A3tpcME/p.jpeg"
+            image={RCcar}
             title="RC Car"
             url="https://github.com/Hakber134/RC-Car"
           />
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACCk4lFVfWZHZOm3LhfX3PTZeOsCH7uRUaaf0_8kk7zn9YvRzdpkHA9GXuIw4Ccwbvy2APkBLY7WCN8lNDv4JcOO3fd3vO18WkrS6zhsYuuYivpLUFowd9GNqyPAMM9MZO26mvKn0Eb4UBVO-3w82jxEPVQiqC0pnF481IiOT9WBmufmweCuzWcmPE2mZ3WMKeFKN3mLsp1n2gSZtj-3PZgINWmLpCaAGReKw_R_fdFDsqql0MohZMAMbtPO4YNH_guaG_DwYsu1s1h8E4nbJ23_29fgqkap7gO1Y0LbSADULuvoCSu7dJ5ohYjk1KMxYCJipn5324akbtipjQ2ocDAv/p.png"
+            image={connect4}
             title="Connect4 Board Game"
             url="https://github.com/Hakber134/Connect4"
           />
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACC9W2uGNdEG2YHZCMdLcoS2MjYekF07XyHzW9XeWuqgQKI2IxKn1eQTIp7IA2FBRk91ESsZjfj5885H6UBllqkyR_j2WW361aNaFwJCQzqfQ2RSj1nfOAwq-PdNu-xg1zbGZ3HWopt4nMoJLYZN_D1yQJZwWA9WPqTTikmF1-okkdtrNsWLe0I2CKO4L-hVhqNCDHXZZCBYkgToX_J3cQZMKCi1OS30AurK19OXQcLCj3YGoWZtB0VsTS8xWhngV4D1sfAHw9ikryMGCzBVP8_h_Z9zNZVJm8sxk8AHLlwP6Z8U8vq5LgrXupphyS9bHiwioDtBPV2KNYAOzD97wjUd/p.png"
+            image={diet}
             title="Diet Tracker"
             url="https://github.com/Hakber134/Diet-Tracker"
           />
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACBx0WKU5kaTUVU9C9XW5RNzTx4KnltBNES09_kQbcSzcn-zeSeTywyUUM9kWNciW8VFdzRqHc2Y9EFdnUHcYtEnQ8pHYIXH8yGSvYthwqAlvmY4QbhQnmOf4g-WZu-_N_yQ4P72c4yHscAvMstOIzgbsP8F0beRA5b8wMcTZAuIppFSP8qDtbuQOxNnglqSgTY75rRaqrWfDXq-47DtqJ1u4VGxzrDDNKcIvivJ_RVHcZzjR4UE1no4S3ZB-9WtISZn-82L9juyp-RMtrhWSvjqYFTFiajXkH826Srn8uyjDL5BdLhwrhaYKdYbDBta5YeGkacJCizKa4NSSGc7GJ2f/p.png"
+            image={rps}
             title="Rock Paper Scissors Game"
             url="https://github.com/Hakber134/Rock-Paper-Scissors"
           />
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACAfgEOtjAm-RxwTs30TZlm2pWyGe6OPyulbE7oncSOuT7lrZF2ocKY3I9Mdea74CXw8pEEeGUnE5CF--3QwY87R1KfhJj7qWPvW30AQNlsPwvMNgMsINgYZzEQKynZJDRb1qYBbRGLN_uHLwtt3rz1cZkGxphWr68ligppyzvMN6vpBalsnJEAXGuAIm11cYB5dKK1t_naplbkOUjv3A1KiQ1bmG8cyDeiwKl9CqQZ-P9qJqZHfL0XcaAhrQVdnRDAw2IOWqW3CTHGiOWJRN-dFbhod9mFcQ3hB0CfFqFR1cvqG5qqLSXBLdHn9pYWErM-r_KXQsM0x1uGfvA1mhJPT/p.png"
+            image={bank}
             title="Bank Account Simulator"
             url="https://github.com/Hakber134/Bank-Account-Simulator"
           />
           <ProjectsCard
-            image="https://previews.dropbox.com/p/thumb/ACB8SECpXobUcRuzzOnuP57iEEVZ26WS9KYhPrhncTBPtXGHk8vxlAbkBJm4djgw5-pLYl0KXCj4ntNcvNqxN1Eb0rVICuUQ0JBGrdRStNu9b-yybTSSX1gF1qyx3gdMyyxTL5vkvr3MQRcfk-UKisEDKnND2HT1RD17IC4IZzAOxHC5cCGA2JWp8yk4KQEwfmtD9pD1gWgJqvgC53xgdjb1JLYM_1Z9cnCop1MsakK4MpUjHWziUQqJwSB1kgPBxShVrHEWyru6Lf4EtvLPNkSV9ksp_zqUcxmDewWL7BDmTLNg77JDRaF_lyLsy7msKDzuStA9nShdbQy61TZjf-cK/p.jpeg"
+            image={portfolio}
             title="This Portfolio Website"
             url="https://github.com/Hakber134/Portfolio-Website"
           />
