@@ -174,7 +174,7 @@
 }
 
 .homeCubeSkillsFace6 {
-  transform: rotateX(90deg) translate3d(0, 0, 150px);
+  transform: rotateX(-90deg) translate3d(0, 0, 150px);
 }
 
 .cubeShadow {
@@ -184,7 +184,7 @@
   border-radius: 50%;
   animation: cubeShadow 1s ease-in-out infinite alternate;
   filter: blue(3px);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /*.homeSkillsBox {

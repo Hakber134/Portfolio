@@ -221,42 +221,42 @@ const Home = () => {
         <div className="homeCubeSkills">
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
             <img
-              src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-vector-picture-icon-png-image_695350.jpg"
+              src="https://previews.dropbox.com/p/thumb/ACAK9Wg2RndgtSsXty4v-xedS-svaQNlPp6xzDi1CuuQHbD5HVfcJTP2s3ftfnTWgGODiUJB1B_wxnnkKaT2w23lff4SgA-wp8MdXrgAqNJOI98lY5TOqsaw_hw9N0hS-f_qmoPQ2XFnr95mM6XuI4cVTa_G5ysao3IeeY587PhQi4F-ylW4UyhVMHkwjWf5yRAi1ASTNvhIGN05TyXDT5k4jT7KJhU-z5Dj5t6f3c4jAet66la-kzmv6ijfPwQfvZCy0k-RKnCvVnFPLzzrInJhLD7xRqOWPn086CAHjFjMIjZwHp7I7MZoJUNHRTSUIu8zdkXuqzwUOC0BQyJ0CFYr/p.png"
               alt="Face1"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
             <img
-              src="https://i0.wp.com/www.sidekickinteractive.com/wp-content/uploads/2023/04/placeholder-3.png?resize=300%2C200&ssl=1"
+              src="https://previews.dropbox.com/p/thumb/ACCNc2M3d3kIo1uFXrkYfg9DStbUADYG8hvkCUAim934xGPe3EZG57x2pdKqft1ezHmWilURb0cwQNqjbfiAtvCWO-2I0uNHW1_l9sWooeVHynH8G4QyCDtCmVtfdcS5pHSq-MVgwZau1OPoBiFDusLS4gkISgvuZwzzhKL5VmP0QHh_fOy4_Vz66uroBZc-LqGbyifZIlZvqXkp8XHuKqGBx1NJHNfqM666C_9peTu-ULZ7NGPZVHeUjHh_CIq4Oy0yIykYjkdagG89T5XpLaHztApngI_7iIfuIGSstQPjuSYaW7SM91wrQEWlCypjglv14JRG_cvWOX3f3VhPT6LD/p.png"
               alt="Face2"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
             <img
-              src="https://www.clipartmax.com/png/middle/92-925246_window-cleaning-placeholder-icon-png.png"
+              src="https://previews.dropbox.com/p/thumb/ACDASqoNUq9xII_a0WUW9x9LRCg0JKOwB3ALus6cwD4DTDkd0_dZxGIbR-moyyT-vgnC8RU8hG47xl_D9oMzIkB-hgHjxYL81xVqkXaoFgcTw-SUq9pvvEiEsMAqGmDD_5aMstpGxeNf0dKsAI7-Dcbd8x0Z-zMGteqLXPvNdPh2cJcybgycgX40sOSPlDaR4wDdUCLMOXDBAtqkFo3WUkH42BKKw333weHo8kDCguTx8VhT26Wtwu8M_9x_TN0xdWNQZ5PwirX-12GhQPBPX5JPJqauhPHOzNXnz_Dxy9-Er99NwiROPsdIEGlJuIXK-InGszEaSfP90TuRtWtvSqFb/p.png"
               alt="Face3"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace4">
             <img
-              src="https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg"
+              src="https://previews.dropbox.com/p/thumb/ACChxpCVJvWQ6x-qXfegIB3Hw24JMnusdCKQhgietXvruewUgPM2tL-ZNOUQo_hkMc_CyS1nAoBJDQtfoFRbog3iM515Yc6c1GXFiM8odrHTCm063gbvruCps_-yUa3Ajo4miQWlwDVt8IpMQrISND6McjKG5iK4L8hT0OzfrUVPXGksWbbMP4XpUPJDaLO6My1d065bHfp_i_3ikF9xN3Dhayh-WMvxXWIuc8bX0JCUIBpd2k8QqUFE6DA30E3UnOXM0ErVHBracZxpUINv-ayT5fm0JXnCB_TRoTvb20aN6NxeyW0oDxCZf8qNzANbuI345nVnGgTtThskiz5h3pSN/p.png"
               alt="Face4"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace5">
             <img
-              src="https://png.pngtree.com/png-vector/20190214/ourmid/pngtree-vector-gallery-icon-png-image_515223.jpg"
+              src="https://previews.dropbox.com/p/thumb/ACBsbw0ay5aiiNEW3-JwKnxi7xzxBFW9QUbQoGrG5dZC--4CwpsLv9tHOPMNhnCd_VBe1mSHQvpEoCYf3T-Snu24iCbGaViCcfni61bKMojfQHZogfF7B9Y-myUwZu4Za0Uz2d6MryfHMcjReM5NWBdvGSjqPg31HyxEqjHXMhGe03ePEHcpIc6Fc72A88NBtDkKLnb2UiySKvmSeQXCKcj_IpweBiRzJYhBvR9zD3cQP7j2mMAOFcMsUTVxtEe4pcvDRKaswDfd1qPSRVuXs7yjjL6tc1GtZQud2R715diNUiIx5MQWrMccUy1Gm09IlsmDSfW9PKmk1DITE27BGem_/p.png"
               alt="Face5"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace6">
             <img
-              src="https://icons-for-free.com/iconfiles/png/512/mountains+photo+photos+placeholder+sun+icon-1320165661388177228.png"
+              src="https://previews.dropbox.com/p/thumb/ACBSiM0sHs_k2G8dfSQNpdElb1_DYLlPhOrDx_O0bua0P0SZtqsvdb4brNg3QMSOKhJx5sNuEVxdb_n8S7rCLgSfNbAeI6p8uYuqfzz00kAW7WxDGRC2dOwwr1X6QSb2uT_bMGCK2ZKbcRe4s0Bym4TbBUSOjCkMtjE02MhKdAvsb4N9_UJPTFe6glN-oH_y4ttOwbwLYlQM3FIh-cZwFLiesBuczW25yIsKk_zSEHDYyQxIbA9L5ukw6UTeGnYvlDl4gLrvnBTfkg9GHlvc41-4uaVk1BxznllRWjeJ1vDCblGJThhEs41zj2ktEuhbBUHFlSQrBcAK5kOErt1kKkCB/p.png"
               alt="Face6"
             />
           </div>
