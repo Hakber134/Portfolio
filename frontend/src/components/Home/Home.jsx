@@ -273,33 +273,33 @@ const Home = () => {
 
         <div className="homeProjectsWrapper">
           <ProjectsCard
-            image="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
+            image="https://previews.dropbox.com/p/thumb/ACDqMCB0q8sBGsWjk9_wcmKF5oOG00QFID4RLVWeQnX77BAa82rATohPnk_afyZsjva_alAGVtkisXyLrQGb2tb9ClyWc4-i19c05LXPhOzJoORdn81e6FXLs3Dmp_uCU98oHC4z0cQM4Cy9dPnkg3QUAsEEUfjb7KrMeK7E0NHaalRrsoReMykxuRDp91hTCG5rukFg03hFWIT_ElYO58bZ1xTyuYgA7pS_U0k7BeN6L7jxl0ZS_i2Ta1l3YrckDtmGsLRSyelUDOIr_gL6wbQa-D_AfN96Q-B2TvJv9VlW_2_WdAuFA8g2CJxZTGCSmZ_fLLDEb_YvyNlB6A3tpcME/p.jpeg"
             title="RC Car"
             url="https://github.com/Hakber134/RC-Car"
           />
           <ProjectsCard
-            image="https://i.gyazo.com/979962f9b89163167a85402f7ad7457a.png"
+            image="https://previews.dropbox.com/p/thumb/ACCk4lFVfWZHZOm3LhfX3PTZeOsCH7uRUaaf0_8kk7zn9YvRzdpkHA9GXuIw4Ccwbvy2APkBLY7WCN8lNDv4JcOO3fd3vO18WkrS6zhsYuuYivpLUFowd9GNqyPAMM9MZO26mvKn0Eb4UBVO-3w82jxEPVQiqC0pnF481IiOT9WBmufmweCuzWcmPE2mZ3WMKeFKN3mLsp1n2gSZtj-3PZgINWmLpCaAGReKw_R_fdFDsqql0MohZMAMbtPO4YNH_guaG_DwYsu1s1h8E4nbJ23_29fgqkap7gO1Y0LbSADULuvoCSu7dJ5ohYjk1KMxYCJipn5324akbtipjQ2ocDAv/p.png"
             title="Connect4 Board Game"
             url="https://github.com/Hakber134/Connect4"
           />
           <ProjectsCard
-            image="https://i.imgur.com/K6ECxYA.png"
+            image="https://previews.dropbox.com/p/thumb/ACC9W2uGNdEG2YHZCMdLcoS2MjYekF07XyHzW9XeWuqgQKI2IxKn1eQTIp7IA2FBRk91ESsZjfj5885H6UBllqkyR_j2WW361aNaFwJCQzqfQ2RSj1nfOAwq-PdNu-xg1zbGZ3HWopt4nMoJLYZN_D1yQJZwWA9WPqTTikmF1-okkdtrNsWLe0I2CKO4L-hVhqNCDHXZZCBYkgToX_J3cQZMKCi1OS30AurK19OXQcLCj3YGoWZtB0VsTS8xWhngV4D1sfAHw9ikryMGCzBVP8_h_Z9zNZVJm8sxk8AHLlwP6Z8U8vq5LgrXupphyS9bHiwioDtBPV2KNYAOzD97wjUd/p.png"
             title="Diet Tracker"
             url="https://github.com/Hakber134/Diet-Tracker"
           />
           <ProjectsCard
-            image="https://i.gyazo.com/d5e16a44cc838a0377cff3d57fc4c8c5.png"
+            image="https://previews.dropbox.com/p/thumb/ACBx0WKU5kaTUVU9C9XW5RNzTx4KnltBNES09_kQbcSzcn-zeSeTywyUUM9kWNciW8VFdzRqHc2Y9EFdnUHcYtEnQ8pHYIXH8yGSvYthwqAlvmY4QbhQnmOf4g-WZu-_N_yQ4P72c4yHscAvMstOIzgbsP8F0beRA5b8wMcTZAuIppFSP8qDtbuQOxNnglqSgTY75rRaqrWfDXq-47DtqJ1u4VGxzrDDNKcIvivJ_RVHcZzjR4UE1no4S3ZB-9WtISZn-82L9juyp-RMtrhWSvjqYFTFiajXkH826Srn8uyjDL5BdLhwrhaYKdYbDBta5YeGkacJCizKa4NSSGc7GJ2f/p.png"
             title="Rock Paper Scissors Game"
             url="https://github.com/Hakber134/Rock-Paper-Scissors"
           />
           <ProjectsCard
-            image="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
-            title="Vendor Billing System"
-            url="https://github.com/Hakber134/Billing-Management-System"
+            image="https://previews.dropbox.com/p/thumb/ACAfgEOtjAm-RxwTs30TZlm2pWyGe6OPyulbE7oncSOuT7lrZF2ocKY3I9Mdea74CXw8pEEeGUnE5CF--3QwY87R1KfhJj7qWPvW30AQNlsPwvMNgMsINgYZzEQKynZJDRb1qYBbRGLN_uHLwtt3rz1cZkGxphWr68ligppyzvMN6vpBalsnJEAXGuAIm11cYB5dKK1t_naplbkOUjv3A1KiQ1bmG8cyDeiwKl9CqQZ-P9qJqZHfL0XcaAhrQVdnRDAw2IOWqW3CTHGiOWJRN-dFbhod9mFcQ3hB0CfFqFR1cvqG5qqLSXBLdHn9pYWErM-r_KXQsM0x1uGfvA1mhJPT/p.png"
+            title="Bank Account Simulator"
+            url="https://github.com/Hakber134/Bank-Account-Simulator"
           />
           <ProjectsCard
-            image="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
-            title="Portfolio Website"
+            image="https://previews.dropbox.com/p/thumb/ACB8SECpXobUcRuzzOnuP57iEEVZ26WS9KYhPrhncTBPtXGHk8vxlAbkBJm4djgw5-pLYl0KXCj4ntNcvNqxN1Eb0rVICuUQ0JBGrdRStNu9b-yybTSSX1gF1qyx3gdMyyxTL5vkvr3MQRcfk-UKisEDKnND2HT1RD17IC4IZzAOxHC5cCGA2JWp8yk4KQEwfmtD9pD1gWgJqvgC53xgdjb1JLYM_1Z9cnCop1MsakK4MpUjHWziUQqJwSB1kgPBxShVrHEWyru6Lf4EtvLPNkSV9ksp_zqUcxmDewWL7BDmTLNg77JDRaF_lyLsy7msKDzuStA9nShdbQy61TZjf-cK/p.jpeg"
+            title="This Portfolio Website"
             url="https://github.com/Hakber134/Portfolio-Website"
           />
         </div>
