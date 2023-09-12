@@ -26,7 +26,9 @@
 }
 
 .homeCanvasBox > h2 {
-  font: 900 4rem cursive, "Ubuntu Mono", "Roboto";
+  font-weight: 900; /* Corrected property name */
+  font-size: 4rem;
+  font-family: "Oswald", "Roboto", Courier, monospace;
   letter-spacing: 15px;
   line-height: 150px;
   color: white;
@@ -35,7 +37,9 @@
   background-color: white;
   transition: all 0.5s;
   color: rgb(0, 0, 0);
-  font: 700 1rem cursive, "Ubuntu Mono", "Roboto";
+  font-weight: 700; /* Corrected property name */
+  font-size: 1rem;
+  font-family: "Oswald", "Roboto", Courier, monospace;
   text-decoration: none;
   padding: 2vmax 6vmax;
   box-sizing: border-box;
