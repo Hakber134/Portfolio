@@ -76,7 +76,7 @@
 }
 
 .homeContainer > h3 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
   text-align: center;
   color: rgba(22, 20, 20, 0.904);
   padding: 4vmax;
@@ -101,7 +101,7 @@
 }
 
 .aboutText > h6 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
   font-size: large;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .homeSkills > h3 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
   text-align: center;
   color: white;
   margin-bottom: 4vmax;
@@ -241,15 +241,15 @@
 }
 
 .skillsContainer > div.box > p {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
 }
 
 .progIcons > div > div > h6 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
 }
 
 .hardIcons > div div > h6 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
 }
 
 .rowone {
@@ -376,7 +376,7 @@
 }
 
 .homeProjects > h3 {
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
   text-align: center;
   color: rgba(22, 20, 20, 0.904);
   padding-top: 4vmax;
@@ -390,7 +390,7 @@
   overflow-wrap: inherit;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: cursive, Courier, monospace;
+  font-family: Oswald, Roboto, Courier, monospace;
 }
 
 .homeProjectsWrapper {
