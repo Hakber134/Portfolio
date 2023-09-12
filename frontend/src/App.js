@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getUser, loadUser } from "./actions/user";
 import AdminPanel from "./components/Admin/AdminPanel";
 import Project from "./components/Admin/Projects";
+import Loader from "./components/Loader/Loader";
 
 function App() {
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ function App() {
   return (
     <Router>
       {loading ? (
-        <div>Loading</div>
+        <Loader />
       ) : (
         <>
           <Header />
