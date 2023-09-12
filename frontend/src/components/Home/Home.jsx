@@ -121,11 +121,20 @@ const Home = () => {
         <Typography variant="h3">ABOUT ME</Typography>
         <div className="aboutContainer">
           <div className="aboutText">
-            <Typography variant="h5">About Me</Typography>
+            <Typography variant="h6">
+            My name is Hassan and I'm a third year electrical engineering student at the University of Alberta. 
+            From a young age, I discovered a passion for technology which directed me to studying electrical engineering in university. 
+            This website was created as a platform for me to store and display my passion projects as I create them, as well as to give a bit more insight into my skills. 
+            I've developed this full-stack website to enhance my programming skills by utilizing the MERN (MongoDB, ExpressJS, ReactJS, and NodeJS) tech stack, and I implemented
+            the 3D animations you see at the top using ThreeJS.
+            I plan to keep this site updated as I continue to learn and grow. Outside of my academic and professional commitments, 
+            I enjoy spending time at the gym, travelling, hiking, following the Edmonton Oilers, or unwinding with NFL Football Sundays.
+            Feel free to explore my work and interests. If you have any questions or would like to connect, you can find my contact information in the footer below.
+            </Typography>
           </div>
           <div className="aboutImage">
             <img
-              src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-vector-picture-icon-png-image_695350.jpg"
+              src="https://previews.dropbox.com/p/thumb/ACDSbU-f5jbPdAacLn3ebZk_R85Dp4M7uGIoSbxw3uuZLhQjtOGQFtXsK_uVyYm9fDYZoYxi8mA-5s4_jM8SFLnEGp09v86rXAMw6WT5RIpdRZxfvdsMd9WjftX2tv3skweQFxKjYmnI7EQ_nWsmIRm-ZhKy1EnjII1f5nkvwGZu3KRBhKFrwGUf9PvOQ72le9s9OSEwfMwsY79UyEy3LU6kIIIDuesRWkaCfgdQJbiR2hV1VmNz8BhS_4RvfCi7_719kArPMMbN-8clm7v9teJWyY0IduC-FfVD_0oacVW7VZiSibFuN6fU7KAmhlwLVCfAYOU3ACbiSbSasGDEZ5ap/p.jpeg"
               alt="Hassan"
             />
           </div>

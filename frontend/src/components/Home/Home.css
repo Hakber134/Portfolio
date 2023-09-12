@@ -89,7 +89,7 @@
 }
 
 .aboutText {
-  width: inherit;
+  width: 800px;
   transition: all 0.5s;
   padding: 1vmax;
   margin: 15px;
@@ -97,10 +97,18 @@
   display: flex;
   flex-direction: column;
   background-color: HSL(250, 100%, 75%);
+  height: fit-content;
 }
 
-.aboutText > h5 {
+.aboutText > h6 {
   font-family: cursive, Courier, monospace;
+  font-size: large;
+}
+
+.aboutImage > img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20%;
 }
 
 .homeSkills {
