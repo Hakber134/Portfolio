@@ -8,7 +8,9 @@ import {Typography } from "@mui/material";
 import {Link} from "react-router-dom"
 import { Icon } from "@iconify/react";
 import ProjectsCard from "../ProjectsCard/ProjectsCard";
-import {MouseOutlined} from "@mui/icons-material"
+import {MouseOutlined} from "@mui/icons-material";
+import aboutImage from "../../images/about.jpeg"
+
 
 const Home = () => {
   useEffect(() => {
@@ -134,7 +136,7 @@ const Home = () => {
           </div>
           <div className="aboutImage">
             <img
-              src="https://previews.dropbox.com/p/thumb/ACDSbU-f5jbPdAacLn3ebZk_R85Dp4M7uGIoSbxw3uuZLhQjtOGQFtXsK_uVyYm9fDYZoYxi8mA-5s4_jM8SFLnEGp09v86rXAMw6WT5RIpdRZxfvdsMd9WjftX2tv3skweQFxKjYmnI7EQ_nWsmIRm-ZhKy1EnjII1f5nkvwGZu3KRBhKFrwGUf9PvOQ72le9s9OSEwfMwsY79UyEy3LU6kIIIDuesRWkaCfgdQJbiR2hV1VmNz8BhS_4RvfCi7_719kArPMMbN-8clm7v9teJWyY0IduC-FfVD_0oacVW7VZiSibFuN6fU7KAmhlwLVCfAYOU3ACbiSbSasGDEZ5ap/p.jpeg"
+              src={aboutImage}
               alt="Hassan"
             />
           </div>
