@@ -1,4 +1,4 @@
-This is a portfolio website I created using the MongoDB, ExpressJS, ReactJS, and NodeJS (MERN) tech stack to show a bit more of who I am and display my projects as I work on them. plan to continually update this website with time, and also incorporate further features.
+This is a portfolio website I created using the MongoDB, ExpressJS, ReactJS, and NodeJS (MERN) tech stack to show a bit more of who I am and display my projects as I work on them. I plan to continually update this website with time, and also incorporate further features.
 
 # Getting Started with Create React App
 
