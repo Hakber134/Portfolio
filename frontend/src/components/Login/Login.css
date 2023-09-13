@@ -28,6 +28,7 @@
   transform: translateX(-100vw);
   animation: contactFormInputs 1s ease-in-out forwards;
   justify-content: center;
+  font-family: "Oswald", "Roboto", Courier, monospace;
 }
 
 .loginForm > h4 > p {
@@ -55,7 +56,8 @@
   border-radius: 30px;
   animation: contactFormInputs 1s ease-in-out forwards 0.5s;
   outline: none;
-  font: 100 1rem "Roboto";
+  font: 100 1rem;
+  font-family: "Oswald", "Roboto", Courier, monospace;
 }
 
 .loginForm > div > button {
@@ -67,6 +69,7 @@
   background-color: HSL(250, 100%, 75%);
   color: white;
   transition: all 0.5s;
+  font-family: "Oswald", "Roboto", Courier, monospace;
 }
 .loginForm > div > button:hover {
   background-color: hsl(219, 48%, 8%);

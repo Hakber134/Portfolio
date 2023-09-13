@@ -20,7 +20,7 @@
 }
 
 .ProjectsCard > a > p {
-  font-family: cursive, Courier, monospace;
+  font-family: "Oswald", "Roboto", Courier, monospace;
 }
 
 .ProjectsCard:hover {
